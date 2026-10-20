@@ -1,3 +1,5 @@
+![Sanders Riddle: AI engineering, software systems and workflow automation, with security, privacy and maintainability.](assets/profile-banner.svg)
+
 # Sanders Riddle
 
 **AI engineering · software systems · workflow automation**
@@ -5,6 +7,9 @@
 I design and build software that turns operational needs into usable systems. My work spans document processing, retrieval-augmented generation (RAG), agent-based workflows, backend services and REST APIs, and user-facing applications. I also work at the boundary between engineering and business analysis: understanding a workflow, defining what a solution needs to do, building a practical prototype, and planning how it can fit into existing systems.
 
 Security is a non-negotiable requirement in how I design and build systems. I consider authentication, access boundaries, sensitive-data handling, and reviewability alongside privacy, reliability, and maintainability. I do not treat a working demo as the end of the engineering work.
+
+
+[My work](#what-i-work-on) · [Public project](#public-project) · [Background](#background) · [Connect](#connect)
 
 ## What I work on
 
