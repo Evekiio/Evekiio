@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Sanders Riddle</title>
+<desc id="desc">Practical software. Clear thinking. Careful execution.. Workflow automation · Security · Privacy · Maintainability. Original abstract artwork for Evekiio, not a product screenshot.</desc>
+<rect width="1280" height="360" rx="16" fill="#112a2c"/>
+<g transform="translate(866 44)" fill="none"><path d="M24 25H246V270H24Z" stroke="#56807b"/><path d="M66 68L28 108L66 148M203 146L241 186L203 226" stroke="#b8dc9d" stroke-width="7"/><path d="M163 60L103 238" stroke="#729e8a" stroke-width="4"/><path d="M0 296H274M269 0V296" stroke="#56807b"/><circle cx="269" cy="296" r="7" fill="#b8dc9d"/></g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#f7f5ed">
+<text x="56" y="68" font-size="17" font-weight="700" letter-spacing="3" fill="#b8dc9d">AI ENGINEERING / SOFTWARE SYSTEMS</text>
+<text x="52" y="151" font-size="58" font-weight="700" letter-spacing="-2">Sanders Riddle</text>
+<text x="56" y="202" font-size="24" fill="#c2d7cf">Practical software. Clear thinking. Careful execution.</text>
+<path d="M56 249H118" stroke="#b8dc9d" stroke-width="4"/>
+<text x="56" y="302" font-size="17" fill="#c2d7cf">Workflow automation · Security · Privacy · Maintainability</text>
+</g></svg>
