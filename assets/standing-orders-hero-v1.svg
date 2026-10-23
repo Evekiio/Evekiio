@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<title id="title">Standing Orders</title><desc id="desc">Original abstract portfolio section artwork. Roles. Standards. Coordination. This is not a product or gameplay screenshot.</desc>
+<rect width="1200" height="180" rx="28" fill="#242c32"/>
+<path d="M48 38H104" stroke="#d5b877" stroke-width="4"/>
+<text x="46" y="116" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700" fill="#f5f1e6">Standing Orders</text>
+<g fill="none" stroke="#d5b877" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M925 44Q966 29 1005 46Q1044 29 1085 44V132Q1044 117 1005 134Q966 117 925 132ZM1005 46V134M945 64H983M945 82H983M1027 64H1065M1027 82H1065"/><path d="M965 156H1045"/></g>
+</svg>

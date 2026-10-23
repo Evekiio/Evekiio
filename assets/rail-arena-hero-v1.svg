@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<title id="title">Rail Arena</title><desc id="desc">Original abstract portfolio section artwork. Precision. Movement. Play. This is not a product or gameplay screenshot.</desc>
+<rect width="1200" height="180" rx="28" fill="#121a22"/>
+<path d="M48 38H104" stroke="#48dae8" stroke-width="4"/>
+<text x="46" y="116" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700" fill="#f5f1e6">Rail Arena</text>
+<g fill="none" stroke="#48dae8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M975 132V52L1020 30L1065 52V132M991 122V63L1020 49L1049 63V122"/><path d="M913 80H1086M913 94H1086"/></g>
+</svg>

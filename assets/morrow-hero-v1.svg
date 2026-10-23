@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+<title id="title">Morrow</title><desc id="desc">Original abstract portfolio section artwork. Modular business. Thoughtful foundations. This is not a product or gameplay screenshot.</desc>
+<rect width="1200" height="180" rx="28" fill="#173b34"/>
+<path d="M48 38H104" stroke="#abd2b0" stroke-width="4"/>
+<text x="46" y="116" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700" fill="#f5f1e6">Morrow</text>
+<g fill="none" stroke="#abd2b0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M945 113L1003 82L1061 113L1003 145ZM945 85L1003 54L1061 85M945 57L1003 26L1061 57"/><path d="M1003 83V48Q1034 22 1052 30Q1047 55 1003 60M1003 48Q980 23 966 31Q968 48 1003 53"/></g>
+</svg>
