@@ -1,26 +1,24 @@
-![Original conceptual artwork: connected architectural platforms, teal signal paths and an amber focal point in a calm, expansive world. This is portfolio art, not a Rail Arena screenshot.](assets/sanders-systems-world-v1.jpg)
+![Original conceptual artwork: connected architectural platforms, teal signal paths and an amber focal point in a calm, expansive world. This is portfolio art, not a Rail Arena screenshot.](assets/sanders-systems-world-v2.png)
 
 # Sanders Riddle
 
-### Systems architect · AI engineer · Software engineer · Game designer & developer
+**Systems architect · AI engineer · Software engineer · Game designer & developer**
 
-I build software around how people work—and interactive worlds around how people play. My work connects system design, backend engineering, automation and AI with the rules, feedback and technical foundations that make a game come to life.
+I build practical software and interactive worlds around how people work and play. My work connects system design, backend engineering, automation and AI with game rules, player feedback and real-time systems.
 
 **Security is non-negotiable.** Access boundaries, input validation, privacy and careful handling of sensitive data belong in the design from the start.
 
 [Explore my work](#selected-work) · [How I build](#how-i-build) · [Tools & experience](#tools--experience) · [Background](#background) · [Get in touch](#lets-build-something)
 
----
-
 ## Selected work
 
-### 01 / Rail Arena
+### Rail Arena
+
+![Rail Arena: cyan rail lines and an angular arena gateway. Original abstract section artwork, not gameplay.](assets/rail-arena-hero-v1.svg)
 
 **Game design & development** · Public source · Windows pre-alpha
 
 A precision-focused sci-fi arena shooter that makes aim practice feel like play. One railgun, momentum-driven movement and a compact battlefield put timing, positioning and readable feedback at the center of the experience.
-
-**From game rules to a working client**
 
 - **Play:** solo practice, configurable gameplay bots, combat, jump pads, health pickups, scoring and match/rematch flow. Shared simulation rules support offline play and online duels.
 - **Connect:** two-human direct-IP duels with host-owned movement and damage. Client prediction keeps movement responsive; reconciliation corrects it to the host's state. Bounded hit rewind checks shots against recent target positions.
@@ -33,7 +31,9 @@ A precision-focused sci-fi arena shooter that makes aim practice feel like play.
 
 [View project →](https://github.com/Evekiio/rail-arena) · [Windows pre-alpha](https://github.com/Evekiio/rail-arena/releases/tag/v0.1.0-pre-alpha.1) · [Design](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md) · [Validation](https://github.com/Evekiio/rail-arena/blob/main/docs/VALIDATION.md)
 
-### 02 / Windows System Audit
+### Windows System Audit
+
+![Windows System Audit: a compact diagnostic display in slate blue. Original abstract section artwork, not a product screenshot.](assets/windows-system-audit-hero-v1.svg)
 
 **Practical software & automation** · Public source · Implemented local utility
 
@@ -43,21 +43,25 @@ Reports can contain identifying machine details, so review them before sharing. 
 
 [View project →](https://github.com/Evekiio/windows-system-audit) · [Source](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run guide](https://github.com/Evekiio/windows-system-audit#how-to-run)
 
-### 03 / Standing Orders
+## Architecture & AI collaboration
+
+Concept-level overviews of work beyond the public projects above.
+
+### Standing Orders
+
+![Standing Orders: an open role manual in graphite and warm gold. Original abstract section artwork.](assets/standing-orders-hero-v1.svg)
 
 **AI-agent collaboration** · Reusable role manuals
 
 A library of detailed role manuals for AI agents, with versioned PDF/source editions, team-composition guidance and a catalog. Clear responsibilities and engineering standards help coordinate the work, with security and human verification central to the process.
 
-### 04 / Morrow
+### Morrow
+
+![Morrow: modular foundations and a small growing leaf in forest green. Original abstract section artwork for the planned ecosystem.](assets/morrow-hero-v1.svg)
 
 **Systems & product architecture** · Planned ecosystem · Documentation first
 
 A modular, self-hosted business ecosystem: a shared foundation for websites, customers, appointments and checkout, with focused uses such as farmstead shops and print-on-demand stores. Go with HTML, CSS and JavaScript is the planned foundation. These are architecture and product plans, not implemented application releases.
-
-Standing Orders and Morrow are described at the concept level. Source links above lead to publicly available work.
-
----
 
 ## How I build
 
@@ -84,8 +88,6 @@ December 2007–April 2021 · Approximately 13 years, 4 months
 Before moving into software, I maintained F-15 aircraft and led maintenance teams. That experience shaped how I troubleshoot, document technical work and follow careful procedures under real operating constraints.
 
 My **MBA in Information Systems Management** supports how I connect technical decisions with business requirements and organizational needs.
-
----
 
 ## Let's build something
 
