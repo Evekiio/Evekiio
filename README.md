@@ -1,59 +1,70 @@
-![Sanders Riddle — AI engineering, software systems and workflow automation. Original architectural linework connects modular components.](assets/profile-banner.svg)
+![Sanders Riddle — software engineering, applied AI, and game design and development. Original abstract artwork connects modular systems with an arena sightline.](assets/profile-banner.svg)
 
 # Sanders Riddle
 
-**AI engineering · Software systems · Workflow automation**
+**Software engineering · Applied AI · Game design & development**
 
-I turn operational needs into practical software: document and AI workflows, backend services, automation and usable web applications. My work connects business analysis with engineering—from understanding the problem to building, testing and documenting a solution.
+I build practical software and interactive experiences around how people work and play. My work connects backend systems, workflow automation and AI-assisted engineering with game design and real-time gameplay development—from defining the rules to integrating and validating what runs.
 
-**Security is non-negotiable.** I consider access controls, sensitive-data handling, privacy and reviewability from the start, alongside reliability and maintainability.
+**Security is non-negotiable.** I consider access boundaries, input validation, sensitive-data handling and privacy from the start. Clear ownership, reviewable changes and honest acceptance criteria matter in both business software and games.
 
-[Selected work](#selected-work) · [Engineering approach](#how-i-work) · [Technologies](#technologies) · [Background](#background) · [Connect](#connect)
+[Game development](#game-design--development) · [Software & AI](#software--ai-work) · [Approach](#engineering-approach) · [Technologies](#technologies) · [Background](#background) · [Connect](#connect)
 
-## Selected work
+## Game design & development
+
+### Rail Arena
+
+**Public source · Windows pre-alpha · Unity 6.6 / URP · C#**
+
+A precision-focused sci-fi arena shooter built to make aim practice feel like play. One railgun, momentum-driven movement and a compact battlefield put timing, positioning and readable feedback at the center of the experience.
+
+- **Gameplay systems:** solo practice, configurable bots, combat, jump pads, health pickups, scoring and match/rematch flow. Shared movement and combat rules support offline play and online duels.
+- **Multiplayer foundations:** two-human direct-IP duels with host-owned movement and damage. Client prediction and reconciliation keep local movement responsive while correcting it to the host's state; bounded hit rewind checks shots against recent target positions.
+- **Design and asset integration:** arena layouts, weapon handling, first-person presentation, editable Blender sources and Unity authoring tools. Concept references, third-party asset provenance and installed game content are documented separately.
+- **Inspectable engineering:** C# simulation and networking tests, malformed-input checks, lifecycle tests and build-specific validation records. AI-assisted workflows support implementation and asset development; the in-game bots use gameplay logic, not language models.
+
+**Current stage:** a playable, unfinished Windows pre-alpha is available. Automated evidence covers defined local scenarios; final human input/audio review, real-internet duel acceptance and measured rendering performance remain open. The newer arena, portal and gameplay-rule designs include pending work and should not be read as features already in the released client.
+
+[Explore Rail Arena](https://github.com/Evekiio/rail-arena) · [Windows pre-alpha](https://github.com/Evekiio/rail-arena/releases/tag/v0.1.0-pre-alpha.1) · [Design direction](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md) · [Implementation & validation](https://github.com/Evekiio/rail-arena/blob/main/docs/VALIDATION.md)
+
+## Software & AI work
 
 ### Windows System Audit
 
-**Public code · Implemented local utility · PowerShell**
+**Public source · Implemented local utility · PowerShell**
 
-A Windows reporting tool for understanding a machine before choosing its next role. It collects hardware, operating-system, GPU, storage, network and local-AI readiness information into readable text and structured JSON reports.
+A local Windows reporting tool for comparing PCs and planning development or local-AI workloads. It turns hardware, operating-system, GPU, storage and network information into readable text and structured JSON reports. Reports can contain identifying machine details, so review them before sharing. This is a planning utility, not a security assessment or an actual language-model benchmark.
 
-Useful for comparing PCs, planning development environments and assessing hardware for local AI work. Collection stays on the machine; reports can include identifying system information and should be reviewed before sharing. The tool supports planning—it does not benchmark actual language-model performance or certify a machine's security.
-
-[Explore the repository](https://github.com/Evekiio/windows-system-audit) · [Read the script](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run instructions](https://github.com/Evekiio/windows-system-audit#how-to-run)
+[Repository](https://github.com/Evekiio/windows-system-audit) · [Script](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run guide](https://github.com/Evekiio/windows-system-audit#how-to-run)
 
 ### Standing Orders
 
-**Private project · In development · AI engineering rulebooks**
+**AI-agent role manuals · Reusable guidance**
 
-Practical engineering guidance for people building software with AI agents. The focus is clear standards for architecture, readable code, security, testing and maintenance, with human judgment and verification central to the work.
+A library of detailed role manuals for AI agents, with versioned PDF/source editions, team-composition guidance and a catalog. The focus is clearer responsibilities, stronger engineering standards and coordinated work, with security and human verification central to the process.
 
 ### Morrow
 
-**Private project · Documentation and architecture stage · Applications not yet implemented**
+**Planned business ecosystem · Documentation first**
 
-A planned, modular, self-hosted software ecosystem for small businesses. The direction is a shared foundation with capabilities for business websites, customers, appointments and checkout, plus focused uses such as farmstead shops and print-on-demand stores.
+A modular, self-hosted software ecosystem for small businesses, covering a shared foundation, business websites, customers, appointments and checkout, with focused uses such as farmstead shops and print-on-demand stores. Go with HTML, CSS and JavaScript is the planned foundation. These are architecture and product plans, not implemented application releases.
 
-The planned stack is **Go with HTML, CSS and JavaScript**, with minimal dependencies and cross-platform self-hosting as design goals. Security and privacy boundaries are part of the foundation.
+Standing Orders and Morrow are summarized at the concept level; public source links are provided for publicly available work.
 
-Private projects are summarized at the concept level; public code links are provided where available.
+## Engineering approach
 
-## How I work
-
-1. **Understand the workflow.** Start with the people, constraints and outcome the software needs to support. Translate business needs into a clear scope.
-2. **Design the boundaries.** Decide who can do what, what data is needed and where human review belongs. Consider privacy and failure handling early.
-3. **Keep the system understandable.** Prefer readable code, explicit interfaces, useful documentation and a design that can be maintained.
-4. **Verify the result.** Test behavior and failure cases. Distinguish a working prototype from a system that has completed deployment and operational checks.
-
-My interests include document processing, retrieval-augmented generation (RAG), local language-model integrations, agent-assisted engineering and automation that reduces repetitive work. I focus on clear data and access boundaries and behavior that can be reviewed and tested.
+1. **Start with purpose and interaction.** Define the workflow or player decisions, the constraints and the feedback people need. Turn the intended experience into explicit rules and a manageable scope.
+2. **Keep authority and boundaries clear.** Decide which system owns each result, validate untrusted inputs and limit data access. Prefer readable code, explicit interfaces and documented asset provenance.
+3. **Make progress reviewable.** Use focused changes, automated checks and recorded evidence. Keep implemented behavior, approved designs and unverified assumptions distinct. Human judgment about usability, game feel and creative quality remains essential.
 
 ## Technologies
 
 | Area | Tools and experience |
 | --- | --- |
-| **Backend and automation** | Go, Python, PowerShell, REST APIs and JSON-based workflows |
+| **Game development** | C#, Unity 6.6, URP, Blender and NUnit |
+| **Backend and automation** | Go, Python, PowerShell, REST APIs and JSON workflows |
 | **Web applications** | HTML, CSS, JavaScript, React, PHP, WordPress and MySQL |
-| **AI and documents** | Document processing, RAG, Ollama and local AI integrations |
+| **AI and documents** | AI-assisted development, document processing, retrieval-augmented generation (RAG), Ollama and local AI integrations |
 | **Enterprise background** | SAP Fiori, UI5, ABAP and OData services |
 
 ## Background
@@ -66,4 +77,4 @@ I hold an **MBA in Information Systems Management**, which supports how I connec
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/sandersriddle/) · [Public repositories](https://github.com/Evekiio?tab=repositories&type=public)
+For software engineering, game systems or AI-assisted development, connect on [LinkedIn](https://www.linkedin.com/in/sandersriddle/) or explore my [public repositories](https://github.com/Evekiio?tab=repositories&type=public).

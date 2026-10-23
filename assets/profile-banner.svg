@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="336" viewBox="0 0 1280 336" role="img" aria-labelledby="title description">
   <title id="title">Sanders Riddle</title>
-  <desc id="description">AI engineering, software systems and workflow automation. Original architectural linework connects modular components against a deep teal and warm ivory background. All portfolio information is also provided as readable text in the README.</desc>
+  <desc id="description">Software engineering, applied AI, and game design and development. Original abstract artwork connects modular systems with an arena sightline. This is a design motif, not a gameplay screenshot. All portfolio information is also provided as readable text in the README.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f5f1e6"/>
@@ -10,14 +10,14 @@
       <path d="M32 0H0V32" fill="none" stroke="#54736b" stroke-width="1" opacity=".15"/>
     </pattern>
   </defs>
-  <rect width="1280" height="336" rx="18" fill="#102c2e"/>
+  <rect width="1280" height="336" rx="18" fill="#142b33"/>
   <path d="M852 0H1262Q1280 0 1280 18V318Q1280 336 1262 336H852Z" fill="url(#paper)"/>
   <rect x="852" width="428" height="336" fill="url(#grid)"/>
   <path d="M56 64H128" stroke="#d7b976" stroke-width="5"/>
   <text x="52" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="92" letter-spacing="-3" fill="#faf6eb">Sanders Riddle</text>
   <g font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#c5d9d1">
-    <text x="57" y="232">AI engineering · Software systems</text>
-    <text x="57" y="275">Workflow automation</text>
+    <text x="57" y="232">Software systems · Applied AI</text>
+    <text x="57" y="275">Game design &amp; development</text>
   </g>
   <g fill="none" stroke-linejoin="round">
     <path d="M916 230L1020 170L1136 230L1032 290Z" fill="#d3dfd2" stroke="#56766b" stroke-width="2"/>
@@ -30,4 +30,4 @@
     <rect x="1196" y="276" width="16" height="16" rx="3" fill="#315a52"/>
     <path d="M894 39H925M894 39V70M1215 305H1246M1246 274V305" stroke="#92aa99" stroke-width="2"/>
   </g>
-</svg>
+  <g fill="none" stroke="#357d86" stroke-width="2"><circle cx="1154" cy="110" r="27"/><path d="M1154 72V92M1154 128V148M1116 110H1136M1172 110H1192"/><path d="M936 259L1154 110" stroke="#429eaa" stroke-width="3"/><circle cx="981" cy="228" r="6" fill="#d7b976" stroke="#315a52"/></g></svg>
