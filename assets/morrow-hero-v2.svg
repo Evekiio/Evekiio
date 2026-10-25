@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" role="img" aria-labelledby="title desc">
+<title id="title">MORROW</title><desc id="desc">Original editorial section artwork with an abstract line motif.</desc>
+<rect width="960" height="200" rx="24" fill="#13252d"/>
+<path d="M24 28H936" stroke="#36505a"/>
+<text x="34" y="66" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#a8d9b3">SELECTED WORK / 04</text>
+<text x="34" y="116" font-family="Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="1" fill="#f5f3eb">MORROW</text>
+<text x="35" y="153" font-family="Arial, sans-serif" font-size="14" letter-spacing="2" fill="#c1ced2">FOUNDATIONS / CONNECTIONS / GROWTH</text>
+<path d="M655 120H708V68H761V120H814 M681 120V145 M787 120V145 M708 94H761" fill="none" stroke="#a8d9b3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="894" cy="150" r="5" fill="#a8d9b3"/>
+</svg>

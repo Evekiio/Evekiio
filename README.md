@@ -4,7 +4,11 @@
 
 **Systems architect · AI engineer · Software engineer · Game designer & developer**
 
-I build practical software and interactive worlds around how people work and play. My work connects system design, backend engineering, automation and AI with game rules, player feedback and real-time systems.
+## Thoughtful systems. Worlds worth exploring.
+
+I turn complex ideas into software people can use and worlds they can play. Architecture gives the work structure; engineering makes it dependable; design gives it purpose.
+
+From a precise arena duel to a useful local tool or a clearer way to direct AI agents, I care about the same thing: making the next action understandable.
 
 **Security is non-negotiable.** Access boundaries, input validation, privacy and careful handling of sensitive data belong in the design from the start.
 
@@ -12,9 +16,15 @@ I build practical software and interactive worlds around how people work and pla
 
 ## Selected work
 
+**Play with precision** → Rail Arena  
+**Understand the machine** → Windows System Audit  
+**Make collaboration accountable** → Standing Orders
+
+A growing collection of systems, tools and interactive experiences. Public implementations and private architecture overviews carry their own evidence and limits.
+
 ### Rail Arena
 
-![Rail Arena: cyan rail lines and an angular arena gateway. Original abstract section artwork, not gameplay.](assets/rail-arena-hero-v1.svg)
+![Rail Arena: cyan rail lines and an angular arena gateway. Original abstract section artwork, not gameplay.](assets/rail-arena-hero-v2.svg)
 
 **Game design & development** · Public source · Windows pre-alpha
 
@@ -46,9 +56,11 @@ A precision-focused sci-fi arena shooter that makes aim practice feel like play.
 
 ### Windows System Audit
 
-![Windows System Audit: a compact diagnostic display in slate blue. Original abstract section artwork, not a product screenshot.](assets/windows-system-audit-hero-v1.svg)
+![Windows System Audit: a compact diagnostic display in slate blue. Original abstract section artwork, not a product screenshot.](assets/windows-system-audit-hero-v2.svg)
 
 **Practical software & automation** · Public source · Implemented local utility
+
+**The purpose:** make a machine's capabilities easier to understand before choosing its next workload.
 
 A PowerShell tool that turns Windows hardware, operating-system, GPU, storage and network information into readable text and structured JSON reports. It helps compare PCs and plan development or local-AI workloads.
 
@@ -58,21 +70,29 @@ Reports can contain identifying machine details, so review them before sharing. 
 
 ## Architecture & AI collaboration
 
-Concept-level overviews of work beyond the public projects above.
+Selected architecture work, shared at a high level. Private source and internal artifacts remain private.
 
 ### Standing Orders
 
-![Standing Orders: an open role manual in graphite and warm gold. Original abstract section artwork.](assets/standing-orders-hero-v1.svg)
+![Standing Orders: an open role manual in graphite and warm gold. Original abstract section artwork.](assets/standing-orders-hero-v2.svg)
 
-**AI-agent collaboration** · Reusable role manuals
+**AI-agent collaboration** · Versioned reference library · Private project overview
 
-A library of detailed role manuals for AI agents, with versioned PDF/source editions, team-composition guidance and a catalog. Clear responsibilities and engineering standards help coordinate the work, with security and human verification central to the process.
+**The idea:** give an agent a clear job before asking it to act. Standing Orders translates professional responsibilities into bounded workflows: what context to gather, which decisions to make, where authority ends and what evidence to return.
+
+**The architecture:** reusable role manuals connect procedures, prerequisites, outputs and handoffs. Editable sources and versioned PDF editions keep the instructions portable and traceable; team-composition guidance makes responsibilities explicit when several roles contribute.
+
+**Why it matters:** good collaboration needs more than a capable model. It needs a shared definition of the task, an accountable next owner and a result someone can inspect. Security boundaries and human verification are part of that structure.
+
+**Current boundary:** an authored reference library, with initial editions requiring human adoption review. Planning outlines describe future coverage; they do not establish working procedures, a deployed agent team or guaranteed autonomy. This is a public-safe summary, not a distribution of the private manuals.
 
 ### Morrow
 
-![Morrow: modular foundations and a small growing leaf in forest green. Original abstract section artwork for the planned ecosystem.](assets/morrow-hero-v1.svg)
+![Morrow: modular foundations and a small growing leaf in forest green. Original abstract section artwork for the planned ecosystem.](assets/morrow-hero-v2.svg)
 
-**Systems & product architecture** · Ecosystem overview
+**Systems & product architecture** · Private project overview
+
+**The direction:** a common foundation that lets focused business tools grow together.
 
 A modular, self-hosted business ecosystem: a shared foundation for websites, customers, appointments and checkout, with focused uses such as farmstead shops and print-on-demand stores. The design centers on Go with HTML, CSS and JavaScript. This portfolio summarizes the ecosystem concept; implementation and delivery details are kept outside this public overview.
 
@@ -106,4 +126,4 @@ My **MBA in Information Systems Management** supports how I connect technical de
 
 Interested in thoughtful software, game systems or AI-assisted engineering? Connect on [LinkedIn](https://www.linkedin.com/in/sandersriddle/) or explore my [public repositories](https://github.com/Evekiio?tab=repositories&type=public).
 
-<sub>Original AI-generated portfolio artwork. Conceptual imagery, not a project screenshot.</sub>
+<sub>Built to grow through considered additions, clear evidence and useful work. [Profile maintenance](PROFILE-MAINTENANCE.md). Original AI-generated opening artwork; conceptual imagery, not a project screenshot.</sub>
