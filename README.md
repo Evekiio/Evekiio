@@ -27,7 +27,9 @@ A precision-focused sci-fi arena shooter that makes aim practice feel like play.
 
 **Built with:** C# · Unity 6.6 · URP · Blender · NUnit
 
-> **Playable, still developing.** A Windows pre-alpha is available. Automated evidence covers defined local scenarios; final human input/audio review, real-internet duel acceptance and measured rendering performance remain open. Newer arena, portal and gameplay-rule designs include pending work rather than features already in the released client.
+**Recent work on `main`:** saved aim, reticle, comfort and audio settings; portrait-based appearance selection; combat statistics and feedback; and clearer lighting, pickup and traversal cues. Public design notes and build-specific checks document these changes.
+
+> **Playable, still developing.** The downloadable Windows pre-alpha is an older checkpoint and does not include these newer source improvements. Final human input/audio review, real-internet duel acceptance and measured rendering performance remain open. Foundry v2, portals and revised gameplay rules remain pending work rather than released-client features.
 
 [View project →](https://github.com/Evekiio/rail-arena) · [Windows pre-alpha](https://github.com/Evekiio/rail-arena/releases/tag/v0.1.0-pre-alpha.1) · [Design](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md) · [Validation](https://github.com/Evekiio/rail-arena/blob/main/docs/VALIDATION.md)
 
@@ -70,9 +72,9 @@ A library of detailed role manuals for AI agents, with versioned PDF/source edit
 
 ![Morrow: modular foundations and a small growing leaf in forest green. Original abstract section artwork for the planned ecosystem.](assets/morrow-hero-v1.svg)
 
-**Systems & product architecture** · Planned ecosystem · Documentation first
+**Systems & product architecture** · Ecosystem overview
 
-A modular, self-hosted business ecosystem: a shared foundation for websites, customers, appointments and checkout, with focused uses such as farmstead shops and print-on-demand stores. Go with HTML, CSS and JavaScript is the planned foundation. These are architecture and product plans, not implemented application releases.
+A modular, self-hosted business ecosystem: a shared foundation for websites, customers, appointments and checkout, with focused uses such as farmstead shops and print-on-demand stores. The design centers on Go with HTML, CSS and JavaScript. This portfolio summarizes the ecosystem concept; implementation and delivery details are kept outside this public overview.
 
 ## How I build
 
