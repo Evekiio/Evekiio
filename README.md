@@ -82,7 +82,7 @@ A modular, self-hosted business ecosystem: a shared foundation for websites, cus
 
 **Clear boundaries.** Decide which system owns each result. Validate untrusted inputs, limit data access and favor readable code, explicit interfaces and documented asset provenance.
 
-**Evidence over assumptions.** Make focused, reviewable changes and record what was checked. Keep implemented behavior separate from approved designs and open acceptance work. Human judgment still matters for usability, game feel and creative quality.
+**Evidence over assumptions.** Use focused feature branches, meaningful commits and locally validated pull requests into `main`. Record what was checked and keep implemented behavior separate from approved designs and open acceptance work. Publication remains an explicit step, including any approved manual publisher. Human judgment still matters for usability, game feel and creative quality.
 
 ## Tools & experience
 
