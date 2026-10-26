@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300" role="img" aria-labelledby="title desc">
+<title id="title">Sanders Riddle — systems architecture, AI engineering and game development</title>
+<desc id="desc">An original engineering drawing joins connected software modules to a layered arena plan. Ivory type, teal linework and amber reference points on charcoal.</desc>
+<defs><linearGradient id="field" x2="1" y2="1"><stop stop-color="#101e27"/><stop offset="1" stop-color="#19343b"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#8ab7b9" stroke-opacity=".08"/></pattern></defs>
+<rect width="1120" height="300" rx="20" fill="url(#field)"/>
+<rect x="640" width="480" height="300" rx="20" fill="url(#grid)"/>
+<path d="M48 44H92" stroke="#e3b778" stroke-width="3"/>
+<text x="108" y="50" fill="#b9d2d3" font-family="Arial, sans-serif" font-size="17" letter-spacing="3">EVEKIIO / ENGINEERING PORTFOLIO</text>
+<text x="46" y="125" fill="#f4f0e7" font-family="Arial, sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Sanders Riddle</text>
+<text x="49" y="173" fill="#c6dedf" font-family="Arial, sans-serif" font-size="25">Systems architect · AI engineer</text>
+<text x="49" y="212" fill="#c6dedf" font-family="Arial, sans-serif" font-size="25">Software &amp; game developer</text>
+<path d="M49 254H570" stroke="#57767c" stroke-opacity=".65"/>
+<g fill="none" stroke-linejoin="round">
+<path d="M699 196 856 106 1059 188 902 278Z" stroke="#42656a" stroke-width="1.5"/>
+<path d="M699 169 856 79 1059 161 902 251Z" stroke="#689497" stroke-width="1.5"/>
+<path d="M699 142 856 52 1059 134 902 224Z" fill="#142d34" stroke="#91c8c7" stroke-width="2"/>
+<path d="M699 142V196M902 224V278M1059 134V188" stroke="#689497" stroke-width="1.5"/>
+<path d="M750 142 859 80 1008 140 899 202Z M806 110 955 170 M804 163 913 101" stroke="#385c63" stroke-width="1"/>
+<path d="M783 143 854 102 911 125 840 166Z M840 166V182L911 141V125" fill="#224951" stroke="#71c4bd" stroke-width="2"/>
+<path d="M911 125 964 146 915 174" stroke="#e3b778" stroke-width="2"/>
+<rect x="729" y="55" width="30" height="30" rx="5" stroke="#91c8c7" stroke-width="2"/>
+<path d="M759 70H788V91L810 103" stroke="#91c8c7" stroke-width="2"/>
+<rect x="1012" y="222" width="30" height="30" rx="5" stroke="#91c8c7" stroke-width="2"/>
+<path d="M1012 237H979V213L950 200" stroke="#91c8c7" stroke-width="2"/>
+</g><g fill="#e3b778"><circle cx="783" cy="143" r="4"/><circle cx="964" cy="146" r="4"/><circle cx="915" cy="174" r="4"/></g>
+</svg>

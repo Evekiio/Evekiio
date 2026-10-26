@@ -1,49 +1,32 @@
-![Original conceptual artwork: connected architectural platforms, teal signal paths and an amber focal point in a calm, expansive world. This is portfolio art, not a Rail Arena screenshot.](assets/sanders-systems-world-v2.png)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/portfolio-banner-mobile-v3.svg">
+  <img src="assets/portfolio-banner-v3.svg" alt="Sanders Riddle — systems architect, AI engineer, software and game developer. Original linework connects software modules to a layered arena plan." width="1120">
+</picture>
 
-# Sanders Riddle
+**I'm Sanders Riddle, a systems architect, AI engineer and software developer who also designs and builds games.** I work across practical tools, AI-assisted workflows and real-time systems, with clear ownership, security boundaries and inspectable evidence built into the process.
 
-**Systems architect · AI engineer · Software engineer · Game designer & developer**
-
-## Thoughtful systems. Worlds worth exploring.
-
-I turn complex ideas into software people can use and worlds they can play. Architecture gives the work structure; engineering makes it dependable; design gives it purpose.
-
-From a precise arena duel to a useful local tool or a clearer way to direct AI agents, I care about the same thing: making the next action understandable.
-
-**Security is non-negotiable.** Access boundaries, input validation, privacy and careful handling of sensitive data belong in the design from the start.
-
-[Explore my work](#selected-work) · [How I build](#how-i-build) · [Tools & experience](#tools--experience) · [Background](#background) · [Get in touch](#lets-build-something)
+[Selected work](#selected-work) · [Engineering approach](#engineering-approach) · [Experience & contact](#experience--contact)
 
 ## Selected work
 
-**Play with precision** → Rail Arena  
-**Understand the machine** → Windows System Audit  
-**Make collaboration accountable** → Standing Orders
-
-A growing collection of systems, tools and interactive experiences. Public implementations and private architecture overviews carry their own evidence and limits.
-
 ### Rail Arena
+**Game design & development · Public source · Windows pre-alpha**  
+C# · Unity 6.6 / URP · Blender · NUnit
 
-![Rail Arena: cyan rail lines and an angular arena gateway. Original abstract section artwork, not gameplay.](assets/rail-arena-hero-v2.svg)
+A railgun-only sci-fi arena shooter built around aim, momentum and positioning. Solo practice, configurable combat bots and two-player direct-IP duels share the same simulation rules.
 
-**Game design & development** · Public source · Windows pre-alpha
+**My work spans** gameplay design, C# simulation, host-authoritative networking, editable asset pipelines and build-specific validation. Client prediction and reconciliation support responsive movement; bounded hit rewind checks shots against recent target positions. AI assists development and concept exploration; the in-game bots use gameplay logic.
 
-A precision-focused sci-fi arena shooter that makes aim practice feel like play. One railgun, momentum-driven movement and a compact battlefield put timing, positioning and readable feedback at the center of the experience.
+[Source](https://github.com/Evekiio/rail-arena) · [Download pre-alpha](https://github.com/Evekiio/rail-arena/releases/tag/v0.1.0-pre-alpha.1) · [Design](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md) · [Validation](https://github.com/Evekiio/rail-arena/blob/main/docs/VALIDATION.md)
 
-- **Play:** solo practice, configurable gameplay bots, combat, jump pads, health pickups, scoring and match/rematch flow. Shared simulation rules support offline play and online duels.
-- **Connect:** two-human direct-IP duels with host-owned movement and damage. Client prediction keeps movement responsive; reconciliation corrects it to the host's state. Bounded hit rewind checks shots against recent target positions.
-- **Create:** arena layouts, weapon handling, first-person presentation, editable Blender sources and Unity authoring tools. Concept references and third-party asset provenance are documented separately from installed game content.
-- **Verify:** C# simulation/networking tests, malformed-input checks, lifecycle tests and build-specific validation records. Development is AI-assisted; the in-game bots use gameplay logic, not language models.
+> **Current source is ahead of the download.** The Windows ZIP is an older playable checkpoint. Human input/audio review, real-internet duel acceptance and measured rendering performance remain open. Foundry v2, portals and revised match rules are not integrated into current gameplay.
 
-**Built with:** C# · Unity 6.6 · URP · Blender · NUnit
+<details>
+<summary><strong>Engineering detail & visual development</strong></summary>
 
-**Recent work on `main`:** saved aim, reticle, comfort and audio settings; portrait-based appearance selection; combat statistics and feedback; and clearer lighting, pickup and traversal cues. Public design notes and build-specific checks document these changes.
+Current source includes saved aim, reticle, comfort and audio settings; portrait-based appearance selection; combat statistics and feedback; and clearer arena lighting, pickup and traversal cues. Simulation/networking tests, malformed-input checks and lifecycle tests are documented in the project, with limits attached to each build.
 
-> **Playable, still developing.** The downloadable Windows pre-alpha is an older checkpoint and does not include these newer source improvements. Final human input/audio review, real-internet duel acceptance and measured rendering performance remain open. Foundry v2, portals and revised gameplay rules remain pending work rather than released-client features.
-
-[View project →](https://github.com/Evekiio/rail-arena) · [Windows pre-alpha](https://github.com/Evekiio/rail-arena/releases/tag/v0.1.0-pre-alpha.1) · [Design](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md) · [Validation](https://github.com/Evekiio/rail-arena/blob/main/docs/VALIDATION.md)
-
-**Inside the design process · AI-generated concept studies**
+**AI-generated concept studies — design references, not gameplay captures**
 
 <p>
   <a href="https://github.com/Evekiio/rail-arena/blob/f805fbd32129999955c31fa659e5ea0092102ba5/ArtSource/Original/StylizedContenders/References-v1/Final/Approved-Concept.png"><img src="assets/rail-arena-characters-concept-v1.jpg" width="380" alt="Rail Arena AI-generated character concept sheet: the player and three bots with distinct ivory, terracotta, slate and plum armor, plus appearance details. Design reference, not gameplay." /></a>
@@ -54,76 +37,64 @@ A precision-focused sci-fi arena shooter that makes aim practice feel like play.
 
 [Character provenance](https://github.com/Evekiio/rail-arena/blob/f805fbd32129999955c31fa659e5ea0092102ba5/docs/STYLIZED-CONTENDERS.md) · [Foundry sources & review limits](https://github.com/Evekiio/rail-arena/blob/f805fbd32129999955c31fa659e5ea0092102ba5/ArtSource/Original/Foundry-Arena-v2/References-v1/README.md) · [Artwork credits](assets/rail-arena-artwork-NOTICE.md)
 
+</details>
+
+---
+
 ### Windows System Audit
+**Software & automation · Public source · Implemented local utility**  
+PowerShell · Windows · JSON
 
-![Windows System Audit: a compact diagnostic display in slate blue. Original abstract section artwork, not a product screenshot.](assets/windows-system-audit-hero-v2.svg)
+A local PC inspection tool that turns hardware and Windows information into readable text and structured JSON reports. It supports inventory, troubleshooting and workload planning without uploading the collected reports.
 
-**Practical software & automation** · Public source · Implemented local utility
+**Engineering focus:** explicit `OK`, `Unavailable` and `Skipped` states keep collection gaps visible. Identifying machine details are omitted by default, output files use unique names, and disk benchmarking is opt-in.
 
-**The purpose:** make a machine's capabilities easier to understand before choosing its next workload.
+[Source](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run guide](https://github.com/Evekiio/windows-system-audit#quick-start) · [Privacy & limitations](https://github.com/Evekiio/windows-system-audit#privacy-and-security)
 
-A PowerShell tool that turns Windows hardware, operating-system, GPU, storage and network information into readable text and structured JSON reports. It helps compare PCs and plan development or local-AI workloads.
+Reports still expose hardware inventory and Windows versions: review them before sharing. This is a planning utility, not a security assessment or proof that an AI model will run well.
 
-Reports can contain identifying machine details, so review them before sharing. This is a planning utility, not a security assessment or an actual language-model benchmark.
-
-[View project →](https://github.com/Evekiio/windows-system-audit) · [Source](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run guide](https://github.com/Evekiio/windows-system-audit#how-to-run)
-
-## Architecture & AI collaboration
-
-Selected architecture work, shared at a high level. Private source and internal artifacts remain private.
+---
 
 ### Standing Orders
+**AI-agent collaboration · Versioned reference library · Private project overview**
 
-![Standing Orders: an open role manual in graphite and warm gold. Original abstract section artwork.](assets/standing-orders-hero-v2.svg)
+Standing Orders turns a job into a reference an AI agent can follow: what context to gather, which procedure applies, where its authority ends and what evidence to return. It makes responsibilities and handoffs explicit before execution begins.
 
-**AI-agent collaboration** · Versioned reference library · Private project overview
+**The system connects** reusable role manuals, bounded workflows, prerequisites, output templates and acceptance checks. Editable sources and versioned PDF editions support traceable instructions; team-composition guidance helps coordinate roles without expanding their permissions.
 
-**The idea:** give an agent a clear job before asking it to act. Standing Orders translates professional responsibilities into bounded workflows: what context to gather, which decisions to make, where authority ends and what evidence to return.
+The value is a result someone can inspect and a clear next accountable owner. Security boundaries and human verification are part of the design. Initial editions require human adoption review; planning outlines do not establish implemented procedures, a deployed agent team or guaranteed autonomy. This summary shares the architecture at a high level; private manuals and internal artifacts are not distributed here.
 
-**The architecture:** reusable role manuals connect procedures, prerequisites, outputs and handoffs. Editable sources and versioned PDF editions keep the instructions portable and traceable; team-composition guidance makes responsibilities explicit when several roles contribute.
+<details>
+<summary><strong>Additional architecture: Morrow</strong></summary>
 
-**Why it matters:** good collaboration needs more than a capable model. It needs a shared definition of the task, an accountable next owner and a result someone can inspect. Security boundaries and human verification are part of that structure.
+**Systems & product architecture · Private project overview**
 
-**Current boundary:** an authored reference library, with initial editions requiring human adoption review. Planning outlines describe future coverage; they do not establish working procedures, a deployed agent team or guaranteed autonomy. This is a public-safe summary, not a distribution of the private manuals.
+A modular, self-hosted business ecosystem with a shared foundation for websites, customers, appointments and checkout. Focused uses include farmstead shops and print-on-demand stores. The design centers on Go with HTML, CSS and JavaScript; implementation and delivery details remain outside this public overview.
 
-### Morrow
+</details>
 
-![Morrow: modular foundations and a small growing leaf in forest green. Original abstract section artwork for the planned ecosystem.](assets/morrow-hero-v2.svg)
+## Engineering approach
 
-**Systems & product architecture** · Private project overview
+- **Start with the work.** Define the user workflow or player decision, system ownership and acceptance evidence before adding complexity.
+- **Design the boundaries.** Apply least privilege, validate untrusted inputs and handle sensitive data carefully. Keep interfaces, failure paths and asset provenance explicit.
+- **Make changes inspectable.** Use focused branches, meaningful commits and locally validated pull requests. Separate implemented behavior, approved concepts and open acceptance work; human judgment still decides usability and game feel.
 
-**The direction:** a common foundation that lets focused business tools grow together.
-
-A modular, self-hosted business ecosystem: a shared foundation for websites, customers, appointments and checkout, with focused uses such as farmstead shops and print-on-demand stores. The design centers on Go with HTML, CSS and JavaScript. This portfolio summarizes the ecosystem concept; implementation and delivery details are kept outside this public overview.
-
-## How I build
-
-**Purpose before complexity.** Start with the workflow or player decisions, define the constraints and make the intended experience concrete.
-
-**Clear boundaries.** Decide which system owns each result. Validate untrusted inputs, limit data access and favor readable code, explicit interfaces and documented asset provenance.
-
-**Evidence over assumptions.** Use focused feature branches, meaningful commits and locally validated pull requests into `main`. Record what was checked and keep implemented behavior separate from approved designs and open acceptance work. Publication remains an explicit step, including any approved manual publisher. Human judgment still matters for usability, game feel and creative quality.
-
-## Tools & experience
+<details>
+<summary><strong>Tools & experience</strong></summary>
 
 - **Games:** C#, Unity 6.6, URP, Blender, NUnit.
 - **Systems & automation:** Go, Python, PowerShell, REST APIs, JSON workflows.
 - **Web:** HTML, CSS, JavaScript, React, PHP, WordPress, MySQL.
 - **AI & documents:** AI-assisted development, document processing, retrieval-augmented generation (RAG), Ollama and local AI integrations.
-- **Enterprise background:** SAP Fiori, UI5, ABAP and OData services.
+- **Enterprise:** SAP Fiori, UI5, ABAP and OData services.
 
-## Background
+</details>
 
-**United States Air Force veteran**
+## Experience & contact
 
-December 2007–April 2021 · Approximately 13 years, 4 months
+**United States Air Force veteran · December 2007–April 2021**  
+I maintained F-15 aircraft and led maintenance teams. That background shaped how I troubleshoot, document technical work and follow careful procedures under operating constraints. My **MBA in Information Systems Management** supports how I connect technical decisions with business needs.
 
-Before moving into software, I maintained F-15 aircraft and led maintenance teams. That experience shaped how I troubleshoot, document technical work and follow careful procedures under real operating constraints.
+For software, game systems or AI-assisted engineering, connect on [LinkedIn](https://www.linkedin.com/in/sandersriddle/) or explore my [public repositories](https://github.com/Evekiio?tab=repositories&type=public).
 
-My **MBA in Information Systems Management** supports how I connect technical decisions with business requirements and organizational needs.
-
-## Let's build something
-
-Interested in thoughtful software, game systems or AI-assisted engineering? Connect on [LinkedIn](https://www.linkedin.com/in/sandersriddle/) or explore my [public repositories](https://github.com/Evekiio?tab=repositories&type=public).
-
-<sub>Built to grow through considered additions, clear evidence and useful work. [Profile maintenance](PROFILE-MAINTENANCE.md). Original AI-generated opening artwork; conceptual imagery, not a project screenshot.</sub>
+<sub>Original vector identity artwork; conceptual diagram, not a product screenshot. [Profile maintenance](PROFILE-MAINTENANCE.md).</sub>

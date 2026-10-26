@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+<title id="title">Sanders Riddle — systems architect, AI engineer, software and game developer</title>
+<desc id="desc">Compact edition of the original charcoal and teal engineering drawing, with connected modules and a layered arena plan.</desc>
+<rect width="640" height="400" rx="20" fill="#132a32"/>
+<path d="M36 40H71" stroke="#e3b778" stroke-width="3"/>
+<text x="88" y="47" fill="#b9d2d3" font-family="Arial, sans-serif" font-size="21" letter-spacing="2">EVEKIIO / PORTFOLIO</text>
+<text x="33" y="124" fill="#f4f0e7" font-family="Arial, sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Sanders Riddle</text>
+<text x="36" y="178" fill="#c6dedf" font-family="Arial, sans-serif" font-size="31">Systems architect · AI engineer</text>
+<text x="36" y="221" fill="#c6dedf" font-family="Arial, sans-serif" font-size="31">Software &amp; game developer</text>
+<path d="M36 253H604" stroke="#57767c"/>
+<g fill="none" stroke-linejoin="round" stroke-width="2">
+<path d="M320 317 421 265 579 323 478 375Z" fill="#193840" stroke="#91c8c7"/>
+<path d="M320 317V333L478 391 579 339V323M478 375V391" stroke="#577d82"/>
+<path d="M378 316 422 294 486 317 442 340Z" fill="#224951" stroke="#71c4bd"/>
+<path d="M486 317 530 333 500 349" stroke="#e3b778"/>
+<rect x="183" y="288" width="34" height="34" rx="5" stroke="#91c8c7"/>
+<path d="M217 305H275V317H320" stroke="#91c8c7"/>
+</g><circle cx="530" cy="333" r="4" fill="#e3b778"/>
+</svg>

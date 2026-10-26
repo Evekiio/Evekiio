@@ -7,13 +7,15 @@ Update this profile manually through focused feature branches and pull requests.
 Use this repeatable pattern, adapting the length to the available evidence:
 
 ### Project name
-Optional original section artwork with descriptive alt text.
+Prefer a plain Markdown project heading. Add a visual only when it explains the work; avoid a second large card repeating the project name.
 **Discipline** · Public source or private overview · Verified stage
 
 **The purpose:** the human problem or experience.
 **The engineering:** two or three concrete decisions and their value.
 **Current boundary:** what exists, what is planned and what remains unverified.
 Public project/source/release links, where available.
+
+Keep the identity-led banner compact, with its mobile source in the picture element. Keep the two-sentence introduction and project proof near the top; avoid repeated slogans, teaser lists or decorative heading layers. Use native Markdown rules as lightweight dividers and details elements for deeper material.
 
 Keep essential information in Markdown. Use natural headings and single-column flow so the profile works at narrow widths. Favor a small number of meaningful projects over a repository inventory.
 
