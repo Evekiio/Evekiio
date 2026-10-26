@@ -26,6 +26,8 @@ Keep essential information in Markdown. Use natural headings and single-column f
 - Summarize private work only at the owner's approved high level. Never publish private source, internal documents, client details or assets.
 - Preserve artwork credits, source links and existing history. Keep professional identity separate from unrelated creative identities.
 - Avoid badges, dynamic counters and claims that will silently go stale.
+- For reference libraries, distinguish published editions, unpublished candidates, deterministic checks and actual human or agent evaluation. Counts change quickly; favor durable explanations over inventory totals.
+- A supporting diagram should explain a decision or boundary. Give wide diagrams a readable mobile variant and a plain-text equivalent; label conceptual models as such.
 
 ## Validate and publish
 

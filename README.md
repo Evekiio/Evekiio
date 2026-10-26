@@ -41,26 +41,21 @@ Current source includes saved aim, reticle, comfort and audio settings; portrait
 
 ---
 
-### Windows System Audit
-**Software & automation · Public source · Implemented local utility**  
-PowerShell · Windows · JSON
-
-A local PC inspection tool that turns hardware and Windows information into readable text and structured JSON reports. It supports inventory, troubleshooting and workload planning without uploading the collected reports.
-
-**Engineering focus:** explicit `OK`, `Unavailable` and `Skipped` states keep collection gaps visible. Identifying machine details are omitted by default, output files use unique names, and disk benchmarking is opt-in.
-
-[Source](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run guide](https://github.com/Evekiio/windows-system-audit#quick-start) · [Privacy & limitations](https://github.com/Evekiio/windows-system-audit#privacy-and-security)
-
-Reports still expose hardware inventory and Windows versions: review them before sharing. This is a planning utility, not a security assessment or proof that an AI model will run well.
-
----
-
 ### Standing Orders
 **AI-agent collaboration · Versioned reference library · Private project overview**
 
 Standing Orders turns a job into a reference an AI agent can follow: what context to gather, which procedure applies, where its authority ends and what evidence to return. It makes responsibilities and handoffs explicit before execution begins.
 
 **The system connects** reusable role manuals, bounded workflows, prerequisites, output templates and acceptance checks. Editable sources and versioned PDF editions support traceable instructions; team-composition guidance helps coordinate roles without expanding their permissions.
+
+**Beyond the manuals, I built review tooling** to check edition integrity, assemble traceable review packages and test boundary cases with deterministic fixtures. These checks support an accountable review process; they do not establish how reliably an agent will perform a real job.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/standing-orders-boundaries-mobile-v1.svg">
+  <img src="assets/standing-orders-boundaries-v1.svg" width="1120" alt="Standing Orders reference model: gather context, establish authority, follow a bounded procedure, then return evidence. Conceptual diagram, not an automated execution dashboard.">
+</picture>
+
+*Context → authority → procedure → evidence. A reference model for accountable work, with the receiving operator responsible for permissions and adoption.*
 
 The value is a result someone can inspect and a clear next accountable owner. Security boundaries and human verification are part of the design. Initial editions require human adoption review; planning outlines do not establish implemented procedures, a deployed agent team or guaranteed autonomy. This summary shares the architecture at a high level; private manuals and internal artifacts are not distributed here.
 
@@ -72,6 +67,22 @@ The value is a result someone can inspect and a clear next accountable owner. Se
 A modular, self-hosted business ecosystem with a shared foundation for websites, customers, appointments and checkout. Focused uses include farmstead shops and print-on-demand stores. The design centers on Go with HTML, CSS and JavaScript; implementation and delivery details remain outside this public overview.
 
 </details>
+
+---
+
+### Windows System Audit
+**Software & automation · Public source · Implemented local utility**<br>
+PowerShell · Windows · JSON
+
+A local PC inspection tool that turns hardware and Windows information into readable text and structured JSON reports. It supports inventory, troubleshooting and workload planning without uploading the collected reports.
+
+**Engineering focus:** explicit `OK`, `Unavailable` and `Skipped` states keep collection gaps visible. Identifying machine details are omitted by default, output files use unique names, and disk benchmarking is opt-in.
+
+[Source](https://github.com/Evekiio/windows-system-audit/blob/main/full_system_audit.ps1) · [Run guide](https://github.com/Evekiio/windows-system-audit#quick-start) · [Privacy & limitations](https://github.com/Evekiio/windows-system-audit#privacy-and-security)
+
+Reports still expose hardware inventory and Windows versions: review them before sharing. This is a planning utility, not a security assessment or proof that an AI model will run well.
+
+---
 
 ## Engineering approach
 
