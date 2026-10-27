@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
+<title id="title">Sanders Riddle | Evekiio</title><desc id="desc">Systems architecture, AI engineering, software and game development. Original architectural linework on midnight blue with warm ivory and teal accents.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d2b"/><stop offset="1" stop-color="#173c45"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#88c9c4" stroke-opacity=".07"/></pattern></defs>
+<rect width="1120" height="280" rx="16" fill="url(#bg)"/><rect width="1120" height="280" rx="16" fill="url(#grid)"/>
+<path d="M48 42h32" stroke="#e9c48a" stroke-width="3"/>
+<text x="95" y="48" fill="#a8dcd5" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">EVEKIIO / ENGINEERING</text>
+<text x="46" y="125" fill="#f5f2ea" font-family="Arial, sans-serif" font-weight="700" font-size="62" letter-spacing="-1.8">Sanders Riddle</text>
+<text x="48" y="176" fill="#d3e8e6" font-family="Arial, sans-serif" font-size="24">Systems architecture · AI engineering</text>
+<text x="48" y="214" fill="#d3e8e6" font-family="Arial, sans-serif" font-size="24">Software &amp; game development</text>
+<path d="M48 240h540" stroke="#47727b"/><g fill="none" stroke-linejoin="round"><path d="m744 151 135-77 169 72-135 77Z" fill="#15333e" stroke="#7ac5bf" stroke-width="2"/><path d="M744 151v28l169 72 135-77v-28M913 223v28" stroke="#47727b" stroke-width="1.5"/><path d="m785 151 95-54 126 54-95 54ZM833 124l126 54m-127 0 94-54" stroke="#365c69"/><path d="m838 151 42-24 51 22-42 24Z" fill="#245a63" stroke="#9bd9d1" stroke-width="2"/><path d="M838 151v17l51 22 42-24v-17M889 173v17" stroke="#71b8b5"/><path d="m931 149 43 18-29 17" stroke="#e9c48a" stroke-width="2"/><rect x="728" y="59" width="24" height="24" rx="4" stroke="#a8dcd5"/><path d="M752 71h38v29l16 9" stroke="#a8dcd5"/><circle cx="974" cy="167" r="4" fill="#e9c48a"/><circle cx="838" cy="151" r="4" fill="#a8dcd5"/></g></svg>
