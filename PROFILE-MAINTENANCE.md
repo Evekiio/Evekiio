@@ -15,7 +15,7 @@ Prefer a plain Markdown project heading. Add a visual only when it explains the 
 **Current boundary:** what exists, what is planned and what remains unverified.
 Public project/source/release links, where available.
 
-Keep the identity-led banner compact, with its mobile source in the picture element. Keep the two-sentence introduction and project proof near the top; avoid repeated slogans, teaser lists or decorative heading layers. Use native Markdown rules as lightweight dividers and details elements for deeper material.
+Keep the identity-led banner compact, with its mobile source in the picture element. Keep the concise introduction and project proof near the top; avoid repeated slogans, teaser lists or decorative heading layers. Use native Markdown rules as lightweight dividers and details elements for deeper material.
 
 Keep essential information in Markdown. Use natural headings and single-column flow so the profile works at narrow widths. Favor a small number of meaningful projects over a repository inventory.
 
@@ -34,3 +34,7 @@ Keep essential information in Markdown. Use natural headings and single-column f
 Check relative paths, heading anchors, SVG XML, accessible image descriptions and self-contained SVGs. Inspect the actual GitHub rendering on desktop and at 320px/390px in light and dark views; verify image loading, wrapping and overflow. Review the exact changed files and confirm remote main has not moved before merging.
 
 Record checks and limitations honestly in the PR. No CI workflow is configured for this profile; do not call a manual check a CI pass. After merge, confirm the exact remote commit and the live profile. Use a new commit or revert PR for corrections; preserve rollback history.
+
+## Presentation refresh, October 27, 2026
+
+Use the v4 responsive identity artwork and native Markdown headings. Keep public source projects separate from limited architecture summaries; never imply a repository is private without checking its current visibility. Standing Orders is represented only by a brief, previously authorized high-level description, without a repository link or detailed process diagram. Preserve truthful stage and validation caveats. Prefer a single-column layout, compact project bullets and a visible technical toolkit to large cards, badge walls or hidden qualifications.
