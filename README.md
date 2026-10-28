@@ -5,7 +5,7 @@
 
 **AI Solutions Engineer** � Consultant � Builder
 
-I turn complex problems into practical solutions: software, AI-assisted workflows and real-time systems designed around the people who use them. I value clear boundaries, maintainability and evidence that others can inspect.
+I build document workflows, automation tools and real-time game systems. As a consultant, I start with the work people need to get done, then design software they can understand and maintain.
 
 [Selected work](#selected-work) � [How I build](#how-i-build) � [Technical toolkit](#technical-toolkit)
 
