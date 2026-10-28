@@ -5,7 +5,7 @@
 
 **AI Solutions Engineer** � Consultant � Builder
 
-I build document workflows, automation tools and real-time game systems. As a consultant, I start with the work people need to get done, then design software they can understand and maintain.
+I build, break and figure things out. As a consultant, I make document workflows and automation tools for the work people need to get done. I also play games—and make them, because apparently playing wasn’t enough.
 
 [Selected work](#selected-work) � [How I build](#how-i-build) � [Technical toolkit](#technical-toolkit)
 
