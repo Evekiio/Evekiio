@@ -13,25 +13,28 @@ I build, break and figure things out. As a consultant, I make document workflows
 
 ### 01 / Rail Arena
 
-**Game systems · Public source · Windows pre-alpha**  
+**Game systems · Public source · Windows v1 alpha**  
 C# · Unity 6.6 / URP · Blender · NUnit
 
-A railgun-only sci-fi arena shooter built around aim, momentum and positioning. Current source includes solo and target practice, offline bot matches and two-player direct-IP duels.
+A sci-fi arena FPS built around aim, momentum and finding a better angle. One rifle, floating gardens and plenty of reasons to queue one more match. Current source includes solo and target practice, offline matches against up to three bots and two-player direct-IP duels.
 
-- **Simulation and networking:** a host-authoritative model with client prediction, reconciliation and bounded hit rewind.
-- **Player experience:** saved aim, reticle, comfort and audio settings, appearance selection, combat feedback and arena traversal cues.
-- **Evidence:** project documentation records build-specific tests and their limits. AI assists development and concept exploration; the in-game bots use gameplay logic.
+- **Combat and traversal:** a 250 RPM automatic rifle, 30-round magazines, reloads and 1.5x ADS, plus sprint slides, jump pads and portals with live views.
+- **Simulation and networking:** host authority, client prediction and reconciliation, opponent interpolation and bounded hit rewind. An offline Physics Lab exposes movement settings for repeatable playtests.
+- **Player experience:** Sky Gardens, four contender appearances, a branded menu and HUD, combat statistics and saved aim, reticle, comfort and audio settings.
+- **Evidence:** the published alpha records 39 passing standalone mechanics checks and targeted movement, HUD, networking and hit-detection checks. AI assists development and concept exploration; the bots use gameplay logic.
 
-[Explore source](https://github.com/Evekiio/rail-arena) · [Download pre-alpha](https://github.com/Evekiio/rail-arena/releases/tag/v0.1.0-pre-alpha.1) · [Design](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md) · [Validation](https://github.com/Evekiio/rail-arena/blob/main/docs/VALIDATION.md)
+[Explore source](https://github.com/Evekiio/rail-arena) · [Download v1 alpha](https://github.com/Evekiio/rail-arena/releases/tag/v1.0.0-alpha.1) · [Alpha status](https://github.com/Evekiio/rail-arena/blob/main/docs/ALPHA.md) · [Design](https://github.com/Evekiio/rail-arena/blob/main/docs/DESIGN.md)
 
-> **Development boundary:** The downloadable Windows checkpoint predates current source. Physical-input and audio review, real-internet duel acceptance and measured rendering performance remain open. Foundry v2, portals and revised match rules are planned, not integrated.
+> **Development boundary:** v1 alpha remains in active polish. Physical-input feel, sound, final visual approval, real-internet duels and measured rendering performance remain open. Automated checks cover specific builds and do not establish those acceptance results.
 
 <details>
 <summary><strong>Visual development</strong></summary>
 
-Character and Foundry concept studies are AI-generated design references, not gameplay captures. Character artwork represents an approved appearance direction; Foundry v2 remains a proposed arena and review candidate.
+Sky Gardens implements the measured Foundry-v2 layout as a playable scene with ramps, a high summit, portals, foliage and waterfalls. Its materials and experimental graphics remain under review. Earlier Foundry and Twin Platforms scenes are preserved.
 
-[Character concept and provenance](https://github.com/Evekiio/rail-arena/blob/f805fbd32129999955c31fa659e5ea0092102ba5/docs/STYLIZED-CONTENDERS.md) · [Foundry sources and review limits](https://github.com/Evekiio/rail-arena/blob/f805fbd32129999955c31fa659e5ea0092102ba5/ArtSource/Original/Foundry-Arena-v2/References-v1/README.md)
+Character and arena concept studies are AI-generated design references, not gameplay captures. Editable Blender sources and Unity assets support the production work; concept approval and final in-game art acceptance are separate.
+
+[Sky Gardens implementation and limits](https://github.com/Evekiio/rail-arena/blob/main/docs/SKY-GARDENS-PLAYABLE.md) · [Character sources](https://github.com/Evekiio/rail-arena/blob/main/docs/STYLIZED-CONTENDERS.md) · [Physics Lab](https://github.com/Evekiio/rail-arena/blob/main/docs/PHYSICS-LAB.md)
 
 </details>
 
